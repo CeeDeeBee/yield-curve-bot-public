@@ -2,7 +2,7 @@ import tweepy
 from datetime import datetime
 
 #twitter authentication
-f = open('keys.txt')
+f = open('./keys.txt')
 keys = f.read().split(',')
 f.close()
 CONSUMER_KEY = keys[0]
